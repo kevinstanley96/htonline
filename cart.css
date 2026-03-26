@@ -45,6 +45,14 @@ header nav a:hover {
   letter-spacing: -1px;
 }
 
+/* Sticky Navbar */
+header nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* ensures it stays above other content */
+  background: #FFFFFF;
+}
+
 /* Hero Section */
 .hero {
   text-align: center;
